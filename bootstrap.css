@@ -1,0 +1,58 @@
+html{
+	height: 100%;
+
+}
+body{
+	background: url("images/computerchair.JPG");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: 'Acme', sans-serif;
+}
+nav{
+	margin: 1%;
+}
+.navbar-brand{
+	padding-right: 0%;
+
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: red;
+	font-family: 'Acme', sans-serif;
+	text-shadow: #6C0427 1px 1px;
+}
+.navbar-dark .navbar-nav .active>.nav-link{
+	color: red;
+	font-family: 'Acme', sans-serif;
+	text-shadow: #6C0427 .5px 1px;
+}
+.navbar-dark .navbar-brand{
+	color: red;
+	padding-left: 20%;
+	position: center;
+	font-size: 3em;
+	font-family: 'Acme', sans-serif;
+	text-shadow: #E95390 1px 2px;
+}
+.navbar-dark .navbar-toggler{
+	color: red;
+}
+.navbar-toggler-icon{
+	color: red;
+	font-family: 'Acme', sans-serif;
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-color: red;
+}
+.btn .btn-danger .start{
+	justify-content: center;
+	align-content: center;
+	color: red;
+}
+.d-flex{
+	justify-content: center;
+	align-content: center;
+	margin-top: 14%;
+
+}
